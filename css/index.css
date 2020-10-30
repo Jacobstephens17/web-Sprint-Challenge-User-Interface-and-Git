@@ -126,11 +126,16 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+
 #aboutPar{
     margin:2rem 0rem 0rem 2rem;
     padding-bottom:1.5rem;
+    width:90%
+}
+
+#border{
     border-bottom:1.5px black dashed;
-    width:100%
+    width:100%;
 }
 
 h1{
