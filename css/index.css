@@ -157,11 +157,17 @@ h1{
     margin-bottom: 20px;
 
 }
+
+#why{
+    display:flex;
+    width:100%;
+    margin-left: -.5rem;
+}
 .boxes{
     display: flex;
     flex-wrap:wrap;
     max-width:100%;
-    justify-content: space-evenly;
+    justify-content: space-center;
     border-bottom:1.8px dashed black;
 }
 
