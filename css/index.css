@@ -89,11 +89,9 @@ header{
         display:flex;
         justify-content: space-evenly;
         flex-direction: row;
-        flex-wrap:wrap;
-        margin:3% 5% 1% 0%;
-        max-width:100%;
+        margin:3% 5% 1% 7%;
+        width:80%;
         text-decoration:none;
-        
 
 }
 
@@ -131,7 +129,7 @@ p {
 #aboutPar{
     margin:2rem 0rem 0rem 2rem;
     padding-bottom:1.5rem;
-    border-bottom:1.5px black dotted;
+    border-bottom:1.5px black dashed;
     width:100%
 }
 
@@ -158,6 +156,13 @@ h1{
     max-width:100%;
     margin-bottom: 20px;
 
+}
+.boxes{
+    display: flex;
+    flex-wrap:wrap;
+    max-width:100%;
+    justify-content: space-evenly;
+    border-bottom:1.8px dashed black;
 }
 
 .midContent{
