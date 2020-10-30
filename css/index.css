@@ -64,6 +64,7 @@ html, body {
 }
 
 header {
+    display:flex;
     display-flex:flex;
     flex-direction: row;
     width:100%;
@@ -75,7 +76,7 @@ header {
     display:flex;
     flex-wrap:wrap;
     src: url('lambda-black.png');
-    margin:0 0rem;
+    margin:2rem 0rem 2rem 0rem;
 }
 
 .jumboImg {
@@ -87,11 +88,19 @@ header {
         display:flex;
         justify-content: space-evenly;
         flex-direction: row;
-        margin:3% 5% 1% 7%;
-        width:80%;
+        max-width:100%;
         text-decoration:none;
+        align-items:center;
+          
 }
 
+.navBarButtons{
+    display:flex;
+    align-items:center;
+    margin-left:10rem;
+   
+
+}
   .bStyle {
     display:flex;
     flex-wrap:wrap;
