@@ -90,17 +90,16 @@ header {
         max-width:100%;
         text-decoration:none;
         align-items:center;
-          
+        
 }
 
 .navBarButtons{
     display:flex;
     align-items:center;
     margin-left:10rem;
-   
-
 }
-  .bStyle {
+
+.bStyle a {
     display:flex;
     flex-wrap:wrap;
     font-size:1rem; 
@@ -114,6 +113,7 @@ h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    font-weight: bold;
 }
 
 p {
@@ -196,13 +196,22 @@ border-bottom: 1px dashed black;
    width:100%;
 }
 
-button {
+a button {
     background-color:transparent;
     border-radius: 6px;
     font-size:1rem;
     text-decoration: none;
+    border:none;
     padding:.5rem 1.5rem .5rem 1.5rem;
 }
+.midButton {
+    background-color:transparent;
+    border-radius: 6px;
+    font-size:1rem;
+    text-decoration: none;
+    border:solid black 1px;
+    padding:.5rem 1.5rem .5rem 1.5rem;
+} 
 
 .middle-content h2 {
     padding: 0 2%;
@@ -217,8 +226,8 @@ button {
 }
 
 .middle-content .boxes .box {
-    width: 15%;
-    height: 7rem;
+    width: 13%;
+    height: 6.3rem;
     background: black;
     margin: 20px 2.5%;
     color: white;
