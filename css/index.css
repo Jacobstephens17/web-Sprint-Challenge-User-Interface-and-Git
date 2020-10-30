@@ -77,6 +77,11 @@ header{
     width:auto;
 }
 
+.jumboImg{
+    align-content:center;
+    width:100%;
+}
+
 header .navBar{
         display:flex;
         justify-content: space-evenly;
@@ -85,15 +90,6 @@ header .navBar{
         flex-wrap:wrap;
         margin:3% auto;
 }
-
-
-  img{
-    display:flex;
-    width:10%;
-    justify-content: space-evenly;
-    background-image:url('lambda-black.png');
-
-  }
 
   .bStyle{
     font-size:1rem; 
@@ -118,6 +114,12 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+#aboutPar{
+    margin:2rem 0rem 3rem 2rem;
+    padding-bottom:1.5rem;
+    border-bottom:1.5px black dotted;
+    width:100%
 }
 
 .top-content {
