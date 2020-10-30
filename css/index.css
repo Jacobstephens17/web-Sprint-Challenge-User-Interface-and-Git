@@ -56,7 +56,6 @@ table {
 
 * {
     box-sizing: border-box;
-    
 }
 
 html, body {
@@ -64,48 +63,43 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
-header{
+header {
     display-flex:flex;
     flex-direction: row;
     width:100%;
     flex-wrap:wrap;
     justify-content: space-evenly;
-
 }
 
-#lambdaLogo img{
+#lambdaLogo img {
     display:flex;
     flex-wrap:wrap;
     src: url('lambda-black.png');
     margin:0 0rem;
 }
 
-.jumboImg{
+.jumboImg {
     align-content:center;
     width:100%;
 }
 
-.navBar{
+.navBar {
         display:flex;
         justify-content: space-evenly;
         flex-direction: row;
         margin:3% 5% 1% 7%;
         width:80%;
         text-decoration:none;
-
 }
 
-  .bStyle{
+  .bStyle {
     display:flex;
     flex-wrap:wrap;
     font-size:1rem; 
     border-style:none;
     justify-content: space-evenly;
     background-color: transparent;
-    
-  
-    
-  }
+}
 
 
 h1, h2, h3, h4, h5 {
@@ -118,7 +112,7 @@ p {
     line-height: 1.4;
 }
 
-.text-container{
+.text-container {
     margin-top:2rem;
 }
 
@@ -127,20 +121,21 @@ p {
     margin: 0 auto;
 }
 
-#aboutPar{
+#aboutPar {
     margin:2rem 0rem 0rem 2rem;
     padding-bottom:1.5rem;
     width:90%
 }
 
-#border{
+#border {
     border-bottom:1.5px black dashed;
     width:100%;
 }
 
-h1{
+h1 {
     margin-top:1rem;
 }
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -160,15 +155,15 @@ h1{
     flex-wrap:wrap;
     max-width:100%;
     margin-bottom: 20px;
-
 }
 
-#why{
+#why {
     display:flex;
     width:100%;
     margin-left: -.5rem;
 }
-.boxes{
+
+.boxes {
     display: flex;
     flex-wrap:wrap;
     max-width:100%;
@@ -176,24 +171,24 @@ h1{
     border-bottom:1.8px dashed black;
 }
 
-.midContent{
+.midContent {
 width:48%;
 margin:1rem auto;
 padding:1rem 0rem;
 border-bottom: 1px dashed black;
-
 }
 
-.midContent p{
+.midContent p {
     margin-bottom:1rem;
 }
 
-.middle-content h2{
+.middle-content h2 {
    display:flex;
    flex-flow:wrap;
    width:100%;
 }
-button{
+
+button {
     background-color:transparent;
     border-radius: 6px;
     font-size:1rem;
@@ -211,7 +206,6 @@ button{
     flex-wrap: wrap;
     justify-content: space-evenly;
     width:100%;
-    
 }
 
 .middle-content .boxes .box {
@@ -223,49 +217,55 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
- #together{
 
+ #together {
     margin-bottom:3rem;
- }
+}
+
 /*BOX COLORS*/
-#box1{
+
+
+#box1 {
 background-color:teal;
 }
 
-#box2{
+#box2 {
     background-color:gold;
 }
-#box3{
+
+#box3 {
     background-color:cadetblue;
 }
-#box4{
+
+#box4 {
     background-color:coral;
 }
-#box5{
+
+#box5 {
      background-color:crimson;
 }
 
-#box6{
+#box6 {
     background-color:forestgreen;
 }
 
-#box7{
+#box7 {
     background-color:darkorchid;
 }
-#box8{
+
+#box8 {
     background-color:hotpink;
 }
 
-#box9{
+#box9 {
     background-color:indigo;
 }
 
-#box10{
+#box10 {
     background-color:dodgerblue;
-
 }
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
