@@ -47,14 +47,63 @@ table {
 	border-spacing: 0;
 }
 
+
+
+
+
+
+
+
 * {
     box-sizing: border-box;
+    
 }
 
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
+
+header{
+    display-flex:flex;
+    flex-direction: row;
+    width:100%;
+
+}
+
+#lambdaLogo img{
+    src: url('lambda-black.png');
+    height:2rem;
+    width:auto;
+}
+
+header .navBar{
+        display:flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        width:70%;
+        flex-wrap:wrap;
+        margin:3% auto;
+}
+
+
+  img{
+    display:flex;
+    width:10%;
+    justify-content: space-evenly;
+    background-image:url('lambda-black.png');
+
+  }
+
+  .bStyle{
+    font-size:1rem; 
+    border-style:none;
+    justify-content: space-evenly;
+    background-color: transparent;
+  
+    
+  }
+
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
@@ -112,6 +161,38 @@ p {
     justify-content: center;
 }
 
+/*BOX COLORS*/
+#box1{
+background-color:teal;
+}
+
+#box2{
+    background-color:gold;
+}
+#box3{
+    background-color:cadetblue;
+}
+#box4{
+    background-color:coral;
+}
+#box5{
+    crimson
+}
+#box6{
+    background-color:forestgreen;
+}
+#box7{background-color:darkorchid;
+}
+#box8{background-color:hotpink;
+}
+#box9{background-color:indigo;
+}
+#box10{background-color:dodgerblue;
+
+
+
+
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
